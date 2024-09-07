@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda:wght@800&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+
+header {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .row img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        /*padding: 15px;*/
+    }
+
+    .row h1 {
+        font-size: 30px;
+        color: #ffd2bf;
+        font-family: "Merienda", cursive;
+        letter-spacing: 0.25em;
+        word-spacing: 0.25em;
+        padding: 50px 0 30px 0;
+    }
+
+    .row h2 {
+        font-size: 15px;
+        color: #ffd2bf;
+        font-family: "Merienda", cursive;
+        letter-spacing: 0.25em;
+        word-spacing: 0.25em;
+    }
+
+    .color1 {
+        background-image: url('./imagenes\ pp/pastel.jpeg');
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*border-radius: 80%;*/
+        opacity: 80%;
+    }
+
+    .color2 {
+        background-color: #fbece5;
+    }
+
+    .color3 {
+        background-color: #323a15;
+    }
+}
+
+.postre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbece5;
+}
+
+.postre img {
+    height: 800px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.postre a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin: 15px;
+    color: grey;
+}
+
+.postre h1 {
+    font-size: 35px;
+    margin: 10px;
+    /*padding: 50px 0px 10px 0;*/
+    border-radius: #4a1d0a;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    color: #4a1d0a;
+}
+
+.postre h2 {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: #050505;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    color: rgb(0, 0, 0);
+}
+
+.postre button {
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    color: darkolivegreen;
+}
+
+.sabores a {
+    padding: 3px 10px;
+    border: #4a1d0a 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    color: darkolivegreen;
+}
+
+.postre p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    color: #323a15;
+    letter-spacing: 0.15em;
+    word-spacing: 0.20em;
+
+}
+
+.postre h4 {
+    font-size: 25px;
+    margin: 10px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.10em;
+    word-spacing: 0.5em;
+    color: #323a15;
+}
+
+.pedidos a {
+    background-color: #323a15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fbece5;
+    font-family: 25px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.15em;
+    word-spacing: 0.10em;
+}
+
+.color3 {
+    background-color: #fbece5;
+}
+
+.color5 {
+    background-color: #5F6F52;
+}
+
+footer {
+    background-color: #5F6F52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 35px;
+}
+
+footer img {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    margin: 20px;
+    letter-spacing: 0.20em;
+    word-spacing: 0.15em;
+
+}
+
+footer h5 {
+    text-align: center;
+    font-family: cursive;
+    margin: 20px;
+    font-size: 15px;
+
+
+}
+
+footer a {
+    height: 40px;
+    width: 100px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda:wght@800&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+body{
+    background-color:#fbece5;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+.row h1 {
+    font-size: 30px;
+    color: #ffd2bf;
+    font-family: "Merienda", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    padding: 50px 0 30px 0;
+}
+
+.row h2 {
+    font-size: 15px;
+    color: #ffd2bf;
+    font-family: "Merienda", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+}
+
+.color1 {
+    background-image: url('./imagenes\ pp/pastel.jpeg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.color2 {
+    background-color: #fbece5;
+}
+
+
+
+.filosofia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fbece5;
+    text-align: center;
+}
+
+.filosofia h1 {
+    font-size: 60px;
+    color: #542c04;
+    padding: 60px 0 10px 0;
+    font-family: "Dancing Script", cursive;
+}
+
+.filosofia p {
+    width: 70%;
+    font-size: 40px;
+    padding: 10px 0 20px 0;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.10em;
+    word-spacing: 0.10em;
+}
+
+
+.carousel-item {
+    height: 200px;
+    width: 100%;
+    background-color: #fbece5;
+    
+}
+
+.carousel-item h5 {
+    font-size: 15px;
+    color: #C1D8C3;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.25em;
+    word-spacing: 0.35em;
+}
+
+.carousel-item p {
+    font-size: 10px;
+    color: #FFF5E4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+}
+
+.color3 {
+    background-color: #fbece5;
+}
+
+.color4 {
+    background-color: #5F6F52;
+    border-radius: 90%;
+    font-size: 15px;
+    font-family: cursive;
+    color: #fbece5;
+}
+.color5 {
+    background-color: #5F6F52;
+}
+
+.pasteles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0px solid red;
+    margin-bottom: 20px;
+}
+
+.pasteles img {
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    padding: 10px;
+}
+
+.pasteles h1 {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    color: #674636;
+    letter-spacing: 0.20em;
+    padding: 5px;
+}
+
+.pasteles p {
+    font-size: 15px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 0.20em;
+    color: #B99470;
+    padding: 5px;
+}
+.pasteles a{
+    padding: 10px;
+}
+footer {
+    background-color: #5F6F52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+footer p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+}
+footer h3{
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;
+    padding: 5px;
+    letter-spacing: 0.20em;
+    word-spacing: 0.15em;
+
+}
+footer h5{
+    text-align: center;
+    font-family: cursive;
+    margin: 20px;
+
+}
+footer a{
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+}
